@@ -1,1 +1,66 @@
+body {
+  background-color: #FCF1DB;
+  margin: 0;
+  padding: 0;
+}
 
+h1 {
+  font-family: 'Meow Script', cursive;
+  color: #C4612A;
+  font-size: 52px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #917232;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Hind', sans-serif;
+}
+
+button {
+  color: white;
+  font-size: 21px;
+  background-color: #3977B0;
+  border: solid 0;
+  padding: .5em 1.5em;
+}
+
+header {
+  background-color: #E0A652;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 3em;
+}
+
+header h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #C4612A;
+  margin-top: 2em;
+  padding: .3em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  font-family: 'Hind', sans-serif;
+  text-transform: lowercase;
+  font-size: 16px;
+  padding-left: 2em;
+}
+
+main {
+  margin-top: 16em;
+}
