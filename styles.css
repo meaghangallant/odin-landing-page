@@ -136,22 +136,19 @@ nav a {
   font-weight: bold;
 }
 
-
-
-#cta {
-  margin: 0;
-  padding: 5em;
-
-}
-
-#cta div {
+.cta {
   background-color: #B9DBC3;
   width: 50%;
   border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  padding: 2em 3em;
 }
 
-footer {
-
+.cta-button {
+  margin: auto;
 }
 
 #colophon {
