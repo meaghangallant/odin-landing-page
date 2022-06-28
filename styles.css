@@ -1,38 +1,51 @@
 body {
-  background-color: #FCF1DB;
+  color: #0D1B1B;
+  background-color: #F1EFE3;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-family: 'Meow Script', cursive;
-  color: #C4612A;
-  font-size: 52px;
+  color: #E26640;
+  font-size: 64px;
   text-align: center;
   font-weight: normal;
   margin: 0;
   padding: 0;
 }
 
-h2 {
-  color: #917232;
+h2, h3 {
+  color: #366D6B;
+  font-family: 'Arvo', serif;
   font-weight: normal;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 p {
   font-family: 'Hind', sans-serif;
+  font-size: 18px;
 }
 
 button {
   color: white;
   font-size: 21px;
-  background-color: #3977B0;
+  background-color: #4EA09C;
   border: solid 0;
   padding: .5em 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
 }
 
 header {
-  background-color: #E0A652;
+  background-color: #F4D2B8;
   position: fixed;
   top: 0;
   width: 100%;
@@ -44,10 +57,11 @@ header h2 {
   text-align: center;
   margin: 0;
   padding: 0;
+  font-style: italic;
 }
 
 nav {
-  background-color: #C4612A;
+  background-color: #E26640;
   margin-top: 2em;
   padding: .3em;
   text-align: center;
