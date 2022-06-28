@@ -136,18 +136,29 @@ nav a {
   font-weight: bold;
 }
 
-footer {
+
+
+#cta {
   margin: 0;
   padding: 5em;
+
 }
 
-#call-to-action {
+#cta div {
   background-color: #B9DBC3;
-  padding: 2em 5em;
-  margin: auto;
   width: 50%;
   border-radius: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
+}
+
+footer {
+
+}
+
+#colophon {
+  color: white;
+  background-color: #142928;
+  text-align: center;
+  width: 100%;
+  font-family: 'Hind', sans-serif;
+  padding: 2em;
 }
