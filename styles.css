@@ -19,6 +19,7 @@ h2, h3 {
   color: #366D6B;
   font-family: 'Arvo', serif;
   font-weight: normal;
+  margin: 0;
 }
 
 h2 {
@@ -77,6 +78,7 @@ nav a {
 #hero {
   text-align: center;
   background-color: #B9DBC3;
+  padding: 10em;
 }
 
 .container {
