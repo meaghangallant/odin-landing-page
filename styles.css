@@ -77,9 +77,15 @@ nav a {
 }
 
 #hero {
-  text-align: center;
   background-color: #B9DBC3;
-  padding: 10em;
+  padding: 5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+#hero img {
+  width: 40%;
+  margin: 0 2em;
 }
 
 .container {
