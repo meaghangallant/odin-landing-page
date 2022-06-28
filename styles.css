@@ -29,10 +29,6 @@ h3 {
   font-size: 24px;
 }
 
-#classes h3 {
-  font-size: 20px;
-}
-
 p {
   font-family: 'Hind', sans-serif;
   font-size: 18px;
@@ -50,9 +46,6 @@ button {
 
 header {
   background-color: #F4D2B8;
-  position: fixed;
-  top: 0;
-  width: 100%;
   padding-top: 3em;
 }
 
@@ -68,7 +61,7 @@ header h2 {
 nav {
   background-color: #E26640;
   margin-top: 2em;
-  padding: .3em;
+  padding: .3em; 
   text-align: center;
 }
 
@@ -78,9 +71,47 @@ nav a {
   text-transform: lowercase;
   font-size: 16px;
   letter-spacing: .1em;
-  padding-left: 2em;
+  padding-left: 2em; 
 }
 
-main {
-  margin-top: 16em;
+#hero {
+  text-align: center;
+  background-color: #B9DBC3;
+}
+
+.container {
+  padding: 3em;
+  margin: 0;
+}
+
+#classes {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#classes div {
+  width: 20%;
+}
+
+#classes img {
+  width: 90%;
+}
+
+#classes h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #FFB9A5;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+}
+
+
+footer div {
+  margin: auto;
+  width: 40%;
 }
