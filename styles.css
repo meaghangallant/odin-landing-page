@@ -105,15 +105,34 @@ nav a {
   text-align: center;
 }
 
+#testimonial-section {
+  background-color: #F4D2B8;
+  padding: 3em;
+}
+
+#testimonial-section div {
+  width: 40%;
+  margin: auto;
+} 
+
+#testimonial-section .testimonial {
+  font-style: italic;
+  font-size: 24px;
+}
+
+#testimonial-section .customer {
+  text-align: right;
+}
+
 footer {
-  background-color: #FFB9A5;
   margin: 0;
-  padding: 2em;
+  padding: 5em;
   text-align: center;
 }
 
-
 footer div {
+  background-color: #B9DBC3;
+  padding: 2em;
   margin: auto;
   width: 40%;
 }
