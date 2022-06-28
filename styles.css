@@ -37,10 +37,10 @@ p {
 
 button {
   color: white;
-  font-size: 21px;
+  font-size: 16px;
   background-color: #4EA09C;
   border: solid 0;
-  padding: .5em 1.5em;
+  padding: 10px 30px;
   text-transform: uppercase;
   letter-spacing: .2em;
   border-radius: 10px;
@@ -101,6 +101,7 @@ nav a {
 
 #classes div {
   width: 20%;
+  margin-top: 2em;
 }
 
 #classes img {
@@ -114,34 +115,39 @@ nav a {
 }
 
 #testimonial-section {
-  background-color: #F4D2B8;
+  background-color: #E89D63;
   padding: 3em;
 }
 
 #testimonial-section div {
-  width: 40%;
+  width: 50%;
   margin: auto;
 } 
 
 #testimonial-section .testimonial {
-  color: #366D6B;
+  color: white;
   font-style: italic;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 #testimonial-section .customer {
+  color: white;
   text-align: right;
+  font-weight: bold;
 }
 
 footer {
   margin: 0;
   padding: 5em;
-  text-align: center;
 }
 
-footer div {
+#call-to-action {
   background-color: #B9DBC3;
-  padding: 2em;
+  padding: 2em 5em;
   margin: auto;
-  width: 40%;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
 }
